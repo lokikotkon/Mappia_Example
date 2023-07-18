@@ -116,7 +116,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:project_landplots</Layers>
+				<Layers>GH:ortofoto</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -126,7 +126,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:project_landplots</Layers>
+				<Layers>GH:ortofoto</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -136,7 +136,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:ortofoto</Layers>
+				<Layers>GH:project_landplots</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -146,7 +146,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:ortofoto</Layers>
+				<Layers>GH:project_landplots</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -193,26 +193,6 @@
 		<UserDefinedSymbolization SupportSLD="1" UserLayer="1" UserStyle="1" RemoteWFS="1"></UserDefinedSymbolization>
 		<Layer>
 			<Layer queryable="1" opaque="0">
-				<Name>GH:project_landplots</Name>
-				<Title>project_landplots</Title>
-				<Abstract>GH:project_landplots ABSTRACT</Abstract>
-				<KeywordList>
-					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
-				</KeywordList>
-				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="14.144697166253628" miny="50.0168573845498" maxx="14.149555361986906" maxy="50.019463534685684"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="-763481.0" miny="-1048067.6875" maxx="-763164.4375" maxy="-1047819.6875"></BoundingBox>
-				<Style>
-					<Name>1</Name>
-					<Title>1</Title>
-					<Abstract></Abstract>
-					<LegendURL width="20" height="20">
-						<Format>image/png</Format>
-						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=project_landplots"></OnlineResource>
-					</LegendURL>
-				</Style>
-			</Layer>
-			<Layer queryable="1" opaque="0">
 				<Name>GH:ortofoto</Name>
 				<Title>ortofoto</Title>
 				<Abstract>GH:ortofoto ABSTRACT</Abstract>
@@ -233,11 +213,31 @@
 				</Style>
 			</Layer>
 			<Layer queryable="1" opaque="0">
+				<Name>GH:project_landplots</Name>
+				<Title>project_landplots</Title>
+				<Abstract>GH:project_landplots ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸4</Keyword>
+				</KeywordList>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox minx="14.144697166253628" miny="50.0168573845498" maxx="14.149555361986906" maxy="50.019463534685684"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="-763481.0" miny="-1048067.6875" maxx="-763164.4375" maxy="-1047819.6875"></BoundingBox>
+				<Style>
+					<Name>1</Name>
+					<Title>1</Title>
+					<Abstract></Abstract>
+					<LegendURL width="20" height="20">
+						<Format>image/png</Format>
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=project_landplots"></OnlineResource>
+					</LegendURL>
+				</Style>
+			</Layer>
+			<Layer queryable="1" opaque="0">
 				<Name>GH:landplots</Name>
 				<Title>landplots</Title>
 				<Abstract>GH:landplots ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
+					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸4</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="14.144624387316039" miny="50.01591041007131" maxx="14.14974710220937" maxy="50.01951839745281"></LatLonBoundingBox>
@@ -257,7 +257,7 @@
 				<Title>road_inner</Title>
 				<Abstract>GH:road_inner ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
+					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸4</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="14.145079093120396" miny="50.01695177149056" maxx="14.149192112974749" maxy="50.01936357307506"></LatLonBoundingBox>
